@@ -620,3 +620,30 @@ body {
   color: #111827;
   text-decoration: underline;
 }
+.suggestion-footer {
+  background: linear-gradient(135deg, #4c1d95, #2e1065);
+  border-top: 3px solid #facc15;
+  padding: 25px 0;
+  margin-top: 40px;
+  color: white !important;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.suggestion-footer p {
+  margin: 5px 0;
+  font-size: 1.1rem;
+  color: white !important;
+}
+
+.suggestion-footer a {
+  color: white !important;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.suggestion-footer a:hover {
+  color: #facc15 !important;
+  text-decoration: underline;
+}
