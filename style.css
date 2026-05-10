@@ -594,13 +594,12 @@ body {
   line-height: 2;
   color: #1f2937;
 }
-
-.suggestion-footer {
-  background: linear-gradient(135deg, #fff3b0, #d8b4fe);
-  border-top: 3px solid #4c1d95;
+ .suggestion-footer {
+  background: linear-gradient(135deg, #4c1d95, #2e1065);
+  border-top: 3px solid #facc15;
   padding: 25px 0;
   margin-top: 40px;
-  color: #2e1065;
+  color: white;
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
   font-weight: bold;
@@ -609,15 +608,17 @@ body {
 .suggestion-footer p {
   margin: 5px 0;
   font-size: 1.1rem;
+  color: white;
 }
 
 .suggestion-footer a {
-  color: #4c1d95;
+  color: white;
   text-decoration: none;
   font-weight: 900;
-
+}
 
 .suggestion-footer a:hover {
-  color: #111827;
+  color: #facc15;
   text-decoration: underline;
 }
+
